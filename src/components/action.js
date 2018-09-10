@@ -22,7 +22,7 @@ export const IS_REGISTERING = 'IS_REGISTERING';
 export const ROUTING_TO_LOGIN = 'ROUTING_TO_LOGIN';
 export const DELETE_USER_SUCCESS = 'DELETE_USER_SUCCESS'
 
-const api = 'https://fast-basin-65577.herokuapp.com'
+const api = 'https://dry-forest-72802.herokuapp.com'
 
 export const registerUser = (username, password, displayName) => (dispatch) => {
   dispatch(isRegistering())
